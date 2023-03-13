@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    top: 0;
+    font-family: sans-serif;
+  }
+  table,
+  th,
+  td {
+    border: 1px solid black;
+    cursor: pointer;
+  }
+  th {
+    background-color: grey;
+    color: #ffffff;
+  }
+  td:hover {
+    background-color: teal;
+    color: #fff;
+  }
+  button {
+    border-radius: 0.2rem;
+    border: none;
+    padding: 0.2rem;
+    margin: 0.2rem;
+    color: #ffffff;
+    background-color: brown;
+    cursor: pointer;
+  }
+  button:hover {
+    color: brown;
+    background-color: #fff;
+  }
